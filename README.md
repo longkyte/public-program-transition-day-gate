@@ -12,7 +12,7 @@ Deployer: `0x5B6465eD6Ec0F2F7944b8279E8872123bf9b545a`.
 
 The deploy transaction is `FINALIZED` with GenVM `SUCCESS`. The complete 17-row integration/consensus matrix, including authoritative readbacks and isolated negative cases, is in [`verification/e2e-matrix.md`](verification/e2e-matrix.md). Representative evidence: [successful notice seal](https://explorer-studio.genlayer.com/tx/0xf5b9812c6e5f271f22823338e5f773936292286b8cd5f7b6bdd5d739a16471b9) (`SEAL_OK`, 4/5 agree, `FINALIZED/SUCCESS`), [cohort fail-closed evaluation](https://explorer-studio.genlayer.com/tx/0x81635601457f63a85b10273d1b382690659339b2c7582f222e28b475c71d80a3) (`AUTHORITY_UNCLEAR`, `FINALIZED/SUCCESS`), and [prompt-injection rejection](https://explorer-studio.genlayer.com/tx/0xedcc5d4ab51845ca9b372362f9402894403867d959240762162cd32a9214ff40) (`NOTICE_UNVERIFIED`, `SEAL_REJECT`, `FINALIZED` rollback).
 
-The final primary readback after E11/E15 is `AUTHORITY_UNCLEAR`, reason `COHORT_MISMATCH`, lifecycle `PENDING`, with transition and sealed notice revision `3`. The isolated negative-test instance is `0xE5814389877119e0db25572648de437450A7C4b0`; it is linked from the matrix and is not the release instance.
+The final primary readback after E11/E15 is `AUTHORITY_UNCLEAR`, reason `COHORT_MISMATCH`, lifecycle `PENDING`, with transition and sealed notice revision `3`. The isolated negative-test instance is `0xE5814389877119e0db25572648de437450A7C4b0`; the separate E16 empty-state evidence instance is `0x9f71EaCEA3C206c50b37061D629C5838AD278E18`. Both are linked from the matrix and neither is the release instance.
 
 ## Problem and Why GenLayer
 
@@ -113,6 +113,7 @@ samples/notice-sealed.json
 samples/negative-cases.json
 verification/test-summary.json
 verification/test-cases.md
+verification/e2e-matrix.md
 README.md
 requirements.txt
 LICENSE
