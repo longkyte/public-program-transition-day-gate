@@ -1,0 +1,21 @@
+{
+  "authority": "State Benefits Agency",
+  "program_id": "housing-support",
+  "cohort_id": "cohort-2027",
+  "old_rule_version": "rule-2026.4",
+  "new_rule_version": "rule-2027.1",
+  "publication_day": "2027-01-01",
+  "implementation_day": "2027-02-01",
+  "effective_day": "2027-03-01",
+  "grandfathering_day": "2027-04-01",
+  "exception_code": "NONE",
+  "notice_revision": 1,
+  "supersedes_revision": 0,
+  "primary_notice": "Official notice from State Benefits Agency: housing-support, cohort-2027, transitions rule-2026.4 to rule-2027.1; publication 2027-01-01; implementation 2027-02-01; effective 2027-03-01; grandfathering 2027-04-01; exception NONE; revision 1.",
+  "amendment_notice": "",
+  "primary_notice_source": "https://agency.example.gov/notices/housing-support-2027",
+  "amendment_notice_source": "",
+  "notice_hash": "17f7dedc71b5fb3741d2f2b096b0e1de7f602a7e4b0883c23b2b29bee6ae7b72",
+  "notice_published_day": "2027-01-01",
+  "notice_valid_until_day": "2027-02-15"
+}

@@ -1,0 +1,30 @@
+{
+  "stage": "stage-6",
+  "command": "PYTHONIOENCODING=utf-8 python -m pytest tests -q",
+  "result": "PASS",
+  "tests_passed": 12,
+  "tests_failed": 0,
+  "lint_command": "PYTHONIOENCODING=utf-8 genvm-lint check contracts/public_program_transition_day_gate.py",
+  "lint_result": "PASS",
+  "deployment": {
+    "network": "Studionet",
+    "chain_id": 61999,
+    "contract": "0x6058B19351f0bB3C7fbbdDe129cbbD1eA5bf8671",
+    "deployer": "0x5B6465eD6Ec0F2F7944b8279E8872123bf9b545a",
+    "deploy_transaction": "0x35e73902ed54284de77331169210b94303fd2d437a8a9199343922c1821bec08",
+    "finality": "FINALIZED",
+    "genvm_result": "SUCCESS",
+    "explorer": "https://explorer-studio.genlayer.com/address/0x6058B19351f0bB3C7fbbdDe129cbbD1eA5bf8671"
+  },
+  "e2e": {
+    "result": "PASS",
+    "scenario_matrix": "verification/e2e-matrix.md",
+    "scenarios_passed": 17,
+    "scenarios_not_run": 0,
+    "primary_instance": "0x6058B19351f0bB3C7fbbdDe129cbbD1eA5bf8671",
+    "isolated_negative_instance": "0xE5814389877119e0db25572648de437450A7C4b0"
+  },
+  "excluded_local_files": [
+    "RESEARCH.md"
+  ]
+}

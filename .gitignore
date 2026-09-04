@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.coverage
+artifacts/
+.env
+# User-provided Stage 1-2 baseline; excluded from the judge candidate package.
+RESEARCH.md
